@@ -6,6 +6,7 @@ import hoodie from "../../assets/hoodie_recomendation.jpg";
 import shoes from "../../assets/shoes_recomendation.jpg";
 import bag from "../../assets/canvas_bag.jpg";
 import { Categories } from "./categories";
+import { NewArivals } from "./newArivals";
 export function Hero() {
    interface Items {
       url: string;
@@ -49,6 +50,7 @@ export function Hero() {
             </button>
          </div>
          <Categories items={items} />
+         <NewArivals />
       </main>
    );
 }

@@ -3,7 +3,7 @@ import { Hero } from "../../components/hero/main";
 
 export function Home() {
    return (
-      <main className="h-[1000px]">
+      <main>
          <Headers />
          <Hero />
       </main>

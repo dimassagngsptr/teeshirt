@@ -61,7 +61,7 @@ export function NavMenu() {
                   </div>
                ))}
             </div>
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center w-[23%]">
                <svg
                   width="16"
                   height="16"
